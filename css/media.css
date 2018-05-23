@@ -1,0 +1,279 @@
+@media (max-width: 999px) {
+
+  header {
+    margin-bottom: calc(145px*0.8325);
+  }
+
+  header h1 {
+    font-size: calc(54px*0.8325);
+    letter-spacing: calc(8.62px*0.8325);
+    width: calc(580px*0.8325);
+  }
+
+  .bordered-container p {
+    margin: 5%;
+  }
+
+  .bordered-black-container::before,
+  .bordered-black-container::after {
+    width: 20%;
+  }
+
+  .bordered-white-container::before,
+  .bordered-white-container::after {
+    width: 20%;
+  }
+
+  #about-us {
+    margin-bottom: calc(160px*0.8325);
+  }
+
+  #services {
+    background-size: 100vw calc(25.42vw/0.625*1.2);
+    height: calc(25.42vw/0.625*1.2);
+    margin-bottom: calc(105px*0.8325);
+  }
+
+  #what-we-do {
+    margin-bottom: calc(115px*0.8325);
+  }
+
+  .what-we-do-card {
+    margin-bottom: calc(90px*0.8325);
+  }
+
+  #our-works {
+    margin-bottom: calc(130px*0.8325);
+  }
+
+  .our-works-image-side,
+  .our-works-image-central {
+    height: 25%;
+    width: 49.5%;
+  }
+
+  #contact-us,
+  footer {
+    margin-bottom: calc(75px*0.8325);
+  }
+  
+}
+
+@media (max-width: 768px) {
+
+  header {
+    margin-bottom: calc(145px*0.64);
+  }
+
+  #header-trademark {
+    top: calc(16.66875%*0.64);
+  }
+
+  header h1 {
+    font-size: calc(54px*0.64);
+    letter-spacing: calc(8.62px*0.64);
+    width: calc(580px*0.64);
+  }
+
+  header p {
+    font-size: 12px;
+    letter-spacing: calc(0.9px*12/15);
+    line-height: calc(29px*12/15);
+    top: 56.43%;
+    width: 90%;
+  }
+
+  .bordered-black-container::before,
+  .bordered-black-container::after {
+    width: 15%;
+  }
+
+  .bordered-white-container::before,
+  .bordered-white-container::after {
+    width: 15%;
+  }
+
+  .section-header,
+  #contact-us-header {
+    font-size: calc(34px*0.8);
+    letter-spacing: calc(8.95px*0.8);
+    transform: translateY(calc(-50px*0.8));
+  }
+
+  #about-us {
+    margin-bottom: calc(160px*0.64);
+  }
+
+  #services {
+    background-size: 100vw calc(25.42vw/0.625*1.4);
+    height: calc(25.42vw/0.625*1.4);
+    margin-bottom: calc(105px*0.64);
+  }
+
+  #what-we-do {
+    margin-bottom: calc(115px*0.64);
+  }
+
+  .what-we-do-card {
+    margin-bottom: calc(90px*0.64);
+  }
+
+  #our-works {
+    justify-content: space-around;
+    margin-bottom: calc(130px*0.64);
+  }
+
+  .our-works-image-side,
+  .our-works-image-central {
+    height: 25%;
+    width: 75%;
+  }
+
+  #contact-us,
+  footer {
+    margin-bottom: calc(75px*0.64);
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  header {
+    background-size: 100vw calc(55.83vw*1.5);
+    height: calc(55.83vw*1.5);
+    margin-bottom: calc(145px*0.48);
+  }
+
+  #header-trademark {
+    top: calc(16.66875%*0.48);
+  }
+
+  header h1 {
+    font-size: calc(54px*0.48);
+    letter-spacing: calc(8.62px*0.48);
+    width: calc(580px*0.48);
+  }
+
+  #mouse-shape {
+    display: none;
+  }
+
+
+  .bordered-black-container::before,
+  .bordered-black-container::after {
+    width: 10%;
+  }
+
+  .bordered-white-container::before,
+  .bordered-white-container::after {
+    width: 10%;
+  }
+
+  .section-header,
+  #contact-us-header {
+    font-size: calc(34px*0.64);
+    letter-spacing: calc(8.95px*0.64);
+    transform: translateY(calc(-50px*0.64));
+  }
+
+  #services {
+    background-size: 100vw calc(25.42vw/0.625*2.4);
+    height: calc(25.42vw/0.625*2.4);
+    margin-bottom: calc(105px*0.48);
+  }
+
+  #services p {
+    transform: translateY(-1rem);
+  }
+
+  #what-we-do {
+    margin-bottom: calc(115px*0.48);
+  }
+
+  .what-we-do-card {
+    margin-bottom: calc(90px*0.48);
+  }
+
+  #our-works {
+    margin-bottom: calc(130px*0.48);
+  }
+
+  .our-works-image-side,
+  .our-works-image-central {
+    height: 25%;
+    width: 100%;
+  }
+  
+  #contact-us,
+  footer {
+    margin-bottom: calc(75px*0.48);
+  }
+
+  #contact-us button {
+    width: calc(250px*0.75);
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  header {
+    margin-bottom: calc(145px*0.3);
+  }
+
+  #header-trademark {
+    top: 0%;
+    transform: scale(0.5);
+  }
+
+  header h1 {
+    top: 15%;
+  }
+
+  header p {
+    top: 45%;
+    width: 80%;
+  }
+
+  .bordered-black-container::before,
+  .bordered-black-container::after {
+    width: 5%;
+  }
+
+  .bordered-white-container::before,
+  .bordered-white-container::after {
+    width: 5%;
+  }
+
+  #services {
+    background-size: 100vw calc(25.42vw/0.625*3);
+    height: calc(25.42vw/0.625*3);
+    margin-bottom: calc(105px*0.3);
+  }
+  
+  #what-we-do {
+    margin-bottom: calc(115px*0.3);
+  }
+
+  .what-we-do-card {
+    margin-bottom: calc(90px*0.3);
+  }
+
+  #our-works {
+    margin-bottom: calc(130px*0.3);
+  }
+
+  #contact-us,
+  footer {
+    margin-bottom: calc(75px*0.3);
+  }
+
+  #contact-us button {
+    width: calc(250px*0.5);
+  }
+
+  #footer-trademark {
+    display: none;
+  }
+
+}
