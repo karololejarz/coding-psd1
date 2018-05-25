@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.flex-justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+/*HEADER*/
+header {
+  background: url("../img/header.png") no-repeat;
+  background-size: 100vw 55.83vw;
+  height: 55.83vw;
+  margin-bottom: 145px;
+  position: relative;
+  text-align: center;
+}
+
+#header-trademark {
+  position: absolute;
+  top: 16.66875%;
+}
+
+header h1 {
+  color: #FFF;
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 8.62px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 26.175%;
+  width: 580px;
+}
+
+header p {
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.9px;
+  line-height: 29px;
+  position: absolute;
+  text-transform: uppercase;
+  top: 56.43%;
+  width: 570px;
+}
+
+#mouse-shape {
+  position: absolute;
+  top: 85.82%;
+}
+
+/*ABOUT US*/
+#about-us {
+  margin-bottom: 160px;
+}
+
+.section-header {
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 8.95px;
+  text-transform: uppercase;
+  transform: translateY(-50px);
+}
+
+#about-us-header {
+  color: #3C3C3C;
+}
+
+#about-us p {
+  color: #3C3C3C;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 55px;
+}
+
+.bordered-black-container {
+  border: 2px solid #3C3C3C;
+  border-top: 0px;
+  position: relative;
+  text-align: center;
+  width: calc(46.875vw*1.5);
+}
+
+.bordered-container::before {
+  left: 0;
+}
+
+.bordered-container::after {
+  right: 0;
+}
+
+.bordered-black-container::before,
+.bordered-black-container::after {
+  border-top: 2px solid #3C3C3C;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 25%;    
+}
+
+/*SERVICES*/
+#services {
+  align-items: center;
+  background: url("../img/services.png") no-repeat;
+  background-size: 100vw 25.42vw;
+  height: 25.42vw;
+  margin-bottom: 105px;
+  position: relative;
+}
+
+#services-header {
+  color: #FFF;
+}
+
+#services p {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25.89px;
+  transform: translateY(-55px);
+}
+
+.bordered-white-container {
+  border: 2px solid #FFF;
+  border-top: 0px;
+  position: relative;
+  text-align: center;
+  width: calc(46.875vw*1.5);
+}
+
+.bordered-white-container::before,
+.bordered-white-container::after {
+  border-top: 2px solid #FFF;
+  content: " ";
+  position: absolute;
+  top: 0;
+  width: 25%;    
+}
+
+/*WHAT WE DO*/
+#what-we-do {
+  margin-bottom: 115px;
+}
+
+.what-we-do-card {
+  margin-bottom: 90px;
+}
+
+.what-we-do-card h3 {
+  color: #3C3C3C;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 5.26px;
+  text-transform: uppercase;
+}
+
+.what-we-do-card p {
+  color: #3C3C3C;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25.89px;
+}
+
+/*OUR WORKS*/
+#our-works {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.our-works-image {
+  margin-bottom: 0.5vw;
+  position: relative;
+}
+
+.our-works-image:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+
+.our-works-image p {
+  color: #FFF;
+  font-size: calc(34px*0.625);
+  font-weight: 700;
+  left: 8%;
+  letter-spacing: calc(8.95px*0.625);
+  position: absolute;
+  text-transform: uppercase;
+  bottom: calc(19%*0.625);
+}
+
+.our-works-image-side {
+  height: calc(12.34vw*0.99);
+  width: calc(28.64vw*0.99);
+}
+
+.our-works-image-central {
+  height: calc(12.34vw*0.99);
+  width: calc(41.66vw*0.99);
+}
+
+#our-works-topworks {
+  background: url("../img/topworkz.png") no-repeat;
+  background-size: cover;
+}
+
+#our-works-joint {
+  background: url("../img/joint.png") no-repeat;
+  background-size: cover;
+}
+
+#our-works-market {
+  background: url("../img/market.png") no-repeat;
+  background-size: cover;
+}
+
+#our-works-worktop {
+  background: url("../img/worktop.png") no-repeat;
+  background-size: cover;
+}
+
+#our-works-label {
+  background: url("../img/lable.png") no-repeat;
+  background-size: cover;
+}
+
+#our-works-kyiv {
+  background: url("../img/kyiv.png") no-repeat;
+  background-size: cover;
+}
+
+/*CONTACT US*/
+#contact-us {
+  margin-bottom: 75px;
+}
+
+#contact-us-header {
+  color: #3C3C3C;
+  font-size: 30px;
+  letter-spacing: 4.76px;
+}
+
+#contact-us button {
+  background-color: #3C3C3C;
+  border: 2px solid #3C3C3C;
+  color: #FFF;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 2.54px;
+  margin: 45px auto;
+  text-transform: uppercase;
+  width: 250px;
+}
+
+#contact-us button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}  
+
+/*FOOTER*/
+footer {
+  margin-bottom: 75px;
+}
+
+footer img {
+  margin-right: 35px;
+}
+
+footer p {
+  height: 14px;
+  color: #3C3C3C;
+  font-size: 14px;
+  font-weight: 400;
+}
